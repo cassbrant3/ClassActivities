@@ -18,3 +18,6 @@ function getNameAndShowMessage(callback) {
 }
 
 // pass each "regular" function into getAndShowMessage as a callback function
+getNameAndShowMessage(greet);
+getNameAndShowMessage(welcome);
+getNameAndShowMessage(informAboutSale);
